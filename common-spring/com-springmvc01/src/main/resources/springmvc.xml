@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 开启注解扫描 -->
+    <context:component-scan base-package="com.lin"/>
+    <!-- 视图解析器对象 -->
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+
+    <!--在 springmvc 的配置文件中可以配置，静态资源不过滤：-->
+    <!-- location 表示路径， mapping 表示文件， **表示该目录下的文件以及子目录的文件 -->
+    <mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/images/" mapping="/images/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
+
+
+    <!--配置自定义类型转换器，将用户的参数从String转为自定义的对象-->
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="com.lin.utils.StringToDateConverter"/>
+            </set>
+        </property>
+    </bean>
+
+
+
+
+  <!--  get 请求方式：
+    tomacat 对 GET 和 POST 请求处理方式是不同的， GET 请求的编码问题， 要改 tomcat 的 server.xml
+    配置文件，如下：
+    <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
+    改为：
+    <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" useBodyEncodingForURI="true"/>
+    如果遇到 ajax 请求仍然乱码，请把：useBodyEncodingForURI="true"改为 URIEncoding="UTF-8"即可。
+    -->
+
+    <!--默认form表单支持get/post请求，如delete、put等其他方式不支持，添加改过滤器，能实现效果。需要在前端代码中配合修改-->
+    <!--前端修改,form中一律用post，同时增加一个隐藏的input，name固定为_method，value指定提交方式即可。
+    ：<form action="spring/test/1" method="post">
+        <input type="hidden" name="_method" value="PUT"/>
+      </form>-->
+    <bean class="org.springframework.web.filter.HiddenHttpMethodFilter"/>
+
+
+    <!--配置文件解析器对象,bean id必须是这个固定的名字，在DispatcherServlet中有对应的常量定义-->
+    <!--这里有点需要注意，当配置了这个解析器，就不能再使用原生 upload.parseRequest(request)来获取上传文件-->
+    <!--CommonsMultipartResolver 使用 commons Fileupload 来处理 multipart 请求，所以在使用时，必须要引入相应的 jar 包；
+    而 StandardServletMultipartResolver 是基于 Servlet 3.0来处理 multipart 请求的，所以不需要引用其他 jar 包，
+    但是必须使用支持 Servlet 3.0的容器才可以，以tomcat为例，从 Tomcat 7.0.x的版本开始就支持 Servlet 3.0了。-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- -1表示不限制，byte单位，这里配置10M-->
+        <property name="maxUploadSize" value="10485760"/>
+    </bean>
+
+    <!--配置异常处理器-->
+    <bean id="sysExceptionResolver" class="com.lin.exception.SysExceptionResolver"/>
+
+    <!-- 开启SpringMVC框架注解的支持,使 用 <mvc:annotation-driven> 自 动 加 载
+  RequestMappingHandlerMapping （ 处 理 映 射 器 ） 和
+  RequestMappingHandlerAdapter （ 处 理 适 配 器 ） -->
+    <!--<mvc:annotation-driven/>-->
+
+    <!--开启springmvc框架注解支持，同时conversion-service用于将自己写的转换器注册（非必须属性）-->
+    <mvc:annotation-driven conversion-service="conversionService"/>
+
+</beans>

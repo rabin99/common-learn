@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbc.properties" />
+
+    <!--使用typeAliases配置别名，它只能配置domain中类的别名(不用区分类名大小写了) -->
+    <typeAliases>
+        <!--因项目结构问题，这里使用package会导致类引用串掉-->
+        <!--<package name="com.lin0302.domain" />-->
+        <typeAlias type="com.lin0302.domain.User" alias="user0302" />
+        <typeAlias type="com.lin0302.domain.QueryVo" alias="queryVo0302" />
+    </typeAliases>
+    <environments default="mysql">
+        <environment id="mysql">
+            <!-- 配置事务的类型-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 配置数据源（连接池） -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 配置映射文件的位置,使用package要求mapper xml文件所在的路径必须要和类的包名一致，否则找不到-->
+    <mappers>
+       <package name="com.lin0302.dao"></package>
+    </mappers>
+</configuration>

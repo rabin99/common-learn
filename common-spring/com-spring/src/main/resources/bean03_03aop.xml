@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!-- 配置srping的Ioc,把service对象配置进来-->
+    <bean id="accountService" class="spring03_03springAOP.service.impl.AccountServiceImpl"/>
+    <bean id="logger" class="spring03_03springAOP.utils.Logger"/>
+    <!--spring中基于XML的AOP配置步骤
+      1、把通知Bean也交给spring来管理
+      2、使用aop:config标签表明开始AOP的配置
+      3、使用aop:aspect标签表明配置切面
+              id属性：是给切面提供一个唯一标识
+              ref属性：是指定通知类bean的Id。
+      4、在aop:aspect标签的内部使用对应标签来配置通知的类型
+             我们现在示例是让printLog方法在切入点方法执行之前之前：所以是前置通知
+             aop:before：表示配置前置通知
+                  method属性：用于指定Logger类中哪个方法是前置通知
+                  pointcut属性：用于指定切入点表达式，该表达式的含义指的是对业务层中哪些方法增强
+
+          切入点表达式的写法：
+              关键字：execution(表达式)
+              表达式：
+                  访问修饰符  返回值  包名.包名.包名...类名.方法名(参数列表)
+              标准的表达式写法：
+                  public void com.lin.service.impl.AccountServiceImpl.saveAccount()
+              访问修饰符可以省略
+                  void com.lin.service.impl.AccountServiceImpl.saveAccount()
+              返回值可以使用通配符，表示任意返回值
+                  * com.lin.service.impl.AccountServiceImpl.saveAccount()
+              包名可以使用通配符，表示任意包。但是有几级包，就需要写几个*.
+                  * *.*.*.*.AccountServiceImpl.saveAccount())
+              包名可以使用..表示当前包及其子包
+                  * *..AccountServiceImpl.saveAccount()
+              类名和方法名都可以使用*来实现通配
+                  * *..*.*()
+              参数列表：
+                  可以直接写数据类型：
+                      基本类型直接写名称           int
+                      引用类型写包名.类名的方式   java.lang.String
+                  可以使用通配符表示任意类型，但是必须有参数
+                  可以使用..表示有无参数均可，有参数可以是任意类型
+              全通配写法：
+                  * *..*.*(..)
+
+              实际开发中切入点表达式的通常写法：
+                  切到业务层实现类下的所有方法
+                      * com.lin.service.impl.*.*(..)
+  -->
+
+    <bean id="loggerAdvisor" class="spring03_03springAOP.utils.LoggerAdvisor"/>
+    <!--配置AOP-->
+    <!--<aop:config>-->
+        <!--&lt;!&ndash;配置切面 ，如果在一个config中配置advisro和aspect ，那么必须advisor放在前面，否则会报错，奇怪了。。。&ndash;&gt;-->
+        <!--&lt;!&ndash;aspect和advisor区别：<aop:advisor>大多用于事务管理；<aop:aspect>大多用于日志、缓存。&ndash;&gt;-->
+        <!--&lt;!&ndash;使用advisor需要对象实现对应的接口&ndash;&gt;-->
+        <!--&lt;!&ndash;<aop:pointcut id="mypoint" expression="execution(* *..*.*(..))" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<aop:advisor advice-ref="loggerAdvisor" pointcut-ref="mypoint" order="1" />&ndash;&gt;-->
+
+        <!--<aop:aspect id="logAdvice" ref="logger" order="2">-->
+            <!--&lt;!&ndash; 配置通知的类型，并且建立通知方法和切入点方法的关联&ndash;&gt;-->
+            <!--<aop:before method="printLog" pointcut="execution(* spring04_03springAOP.service.impl.AccountServiceImpl.*(..))"/>-->
+            <!--<aop:after method="printLog" pointcut="execution(* *..*..*(..))"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+
+    <!--proxy-target-class="true" 前者是手动开启cglib代理模式，默认是使用接口代理，当没有接口默认使用cglib，该参数已经不需要配置，spring自动会选择-->
+    <!--expose-proxy="true" 相当于扩大代理范围，比如A调用B，B的代理方法会实现，加上该参数，调用的时候使用AopContext.currentProxy获取代理对象，用代理对象去自调用-->
+    <aop:config expose-proxy="true">
+        <aop:pointcut id="myPoint" expression="execution(* *..*.*(..))" />
+        <aop:advisor advice-ref="loggerAdvisor" pointcut-ref="myPoint"  />
+    </aop:config>
+
+</beans>

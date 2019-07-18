@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+
+    <!--开启注解的扫描，希望处理service和dao，controller不需要Spring框架去处理-->
+    <context:component-scan base-package="com.lin">
+        <!--配置哪些注解不扫描，因为web层需要让springmvc管理，而不是spring来管理-->
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <context:property-placeholder location="classpath*:jdbcConfig.properties"/>
+
+    <!--spring整合MyBatis框架-->
+    <!--数据库连接池-->
+    <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+
+        <property name="maximumPoolSize" value="5"/>
+        <property name="maxLifetime" value="60"/>
+    </bean>
+
+    <!--配置SqlSessionFactory工厂-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!--如果不是注解方式，那么执行Mybatis配置文件，其中在配置文件中执行Mapper文件-->
+        <!--<property name="configLocation" value="classpath:SqlMapConfig.xml"/>-->
+        <!--还可以一步到位直接配置mapper文件路径即可-->
+        <!--<property name="mapperLocations" value="classpath*:*mapper.xml" />-->
+    </bean>
+
+    <!--配置AccountDao接口所在包-->
+    <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.lin.dao"/>
+    </bean>
+
+    <!--配置Spring框架声明式事务管理-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--配置事务通知-->
+    <tx:advice id="transactionInterceptor" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="find*" read-only="true"/>
+            <tx:method name="*" isolation="DEFAULT"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--配置aop增强-->
+    <!--aspect和advisor区别：<aop:advisor>大多用于事务管理；<aop:aspect>大多用于日志、缓存。-->
+    <aop:config proxy-target-class="true" expose-proxy="true">
+        <!--<aop:aspect id="dd" ref="XXX代理类" >-->
+        <!--<aop:after method="" pointcut=""/>-->
+        <!--<aop:after method=""-->
+        <!--</aop:aspect>-->
+        <aop:advisor advice-ref="transactionInterceptor"
+                     pointcut="execution(* com.lin.service.impl.*ServiceImpl.*(..))"/>
+    </aop:config>
+</beans>

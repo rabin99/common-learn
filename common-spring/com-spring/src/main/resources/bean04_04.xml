@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 这个项目是为了后面的案例能直接复制这些基础代码，在这里没有其他作用 -->
+    <context:property-placeholder location="db.properties"/>
+
+    <bean id="accountService" class="spring04_04tx.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao0404"/>
+    </bean>
+    <bean id="accountDao0404" class="spring04_04tx.dao.impl.AccountDaoImpl">
+        <property name="dataSource" ref="dataSource0404"/>
+    </bean>
+    <!--<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+    <!---->
+    <!--</bean>-->
+
+    <!--spring自带的数据源-->
+    <bean id="dataSource0404" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driverClass}"/>
+        <property name="url" value="${jdbc.jdbcUrl}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+</beans>

@@ -1,0 +1,51 @@
+server:
+  port: 80
+# 配置信息
+info:
+  - author: ljh
+  - phone: 137XXXXX
+  - company: hlw
+spring:
+  application:
+    name: springboot-demo
+  # 这里配置了，为了方便查看配置即可使用，所以在UserController中使用了，在config包中手动配置了Bean。
+  # 实际情况如果不需使用Datasource，那么直接删除config包下关于jdbc的依然生效
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://flu03:3306/test?characterEncoding=utf8
+    type: com.alibaba.druid.pool.DruidDataSource
+  #  datasource:
+  #    hikari:
+  #      driver-class-name: com.mysql.jdbc.Driver
+  #      username: root
+  #      password: root
+  #      jdbc-url: jdbc:mysql://flu03:3306/test?characterEncoding=utf8
+  #      maximum-pool-size: 20
+  #      minimum-idle: 5
+  #      idle-timeout: 30000
+  thymeleaf:
+    prefix: "classpath:/templates/"
+    # Thymeleaf会在第一次对模板解析之后进行缓存，极大的提高了并发处理能力,开发阶段关闭thymeleaf的模板缓存
+    cache: false
+
+
+# @Slf4j不支持包级别日志，需要使用common-logger。但是root配置有效
+logging:
+  level:
+    root: info
+#     - com.lin : debug
+#    - com.ljh.controller: info
+#    - com.lin.intercepter.loginInterceptor: error
+management:
+  server:
+    port: 8888
+  #  actuator所有接口暴露
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+mybatis:
+  type-aliases-package: com.lin.dao
+

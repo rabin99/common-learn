@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 开启注解扫描 -->
+    <context:component-scan base-package="com.lin"/>
+
+    <!-- 视图解析器对象 -->
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    <!--前端控制器，哪些静态资源不拦截-->
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/images/**" location="/images/"/>
+    <mvc:resources mapping="/js/**" location="/js"/>
+
+    <!--配置拦截器-->
+<!--    拦截器和过滤器的功能比较类似，有区别
+    1. 过滤器是Servlet规范的一部分，任何框架都可以使用过滤器技术。
+    2. 拦截器是SpringMVC框架独有的。
+    3. 过滤器配置了/*，可以拦截任何资源。
+    4. 拦截器只会对控制器中的方法进行拦截，对js、css、html、iamges等不会拦截，因为不是控制器方法。
+    拦截器也是AOP思想的一种实现方式-->
+
+ <!--
+    多个拦截器执行顺序：（和Filter有点像，但是Filter只有一个doChain方法，这里拦截器方法都时并排执行，如果3个的话，就123-321-321执行）
+    MyInterceptor1执行了...前1111
+    MyInterceptor2执行了...前2222
+    testInterceptor执行了。。。
+    MyInterceptor2执行了...后2222
+    MyInterceptor1执行了...后1111
+    success.jsp执行了...
+    MyInterceptor2执行了...最后2222
+    MyInterceptor1执行了...最后1111-->
+
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/user/*"/>
+            <!-- 不用拦截的方法
+             <mvc:exclude-mapping path=""/>-->
+            <bean class="com.lin.interceptor.MyInterceptor1"/>
+        </mvc:interceptor>
+  <!--      &lt;!&ndash;配置第二个拦截器&ndash;&gt;
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.lin.interceptor.MyInterceptor2"/>
+        </mvc:interceptor>
+        &lt;!&ndash;配置第二个拦截器&ndash;&gt;
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.lin.interceptor.MyInterceptor3"/>
+        </mvc:interceptor>-->
+    </mvc:interceptors>
+    <mvc:annotation-driven/>
+</beans>

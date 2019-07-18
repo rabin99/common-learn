@@ -1,0 +1,926 @@
+2019-05-27 14:34:45,656 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:34:45,756 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:34:45,756 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:34:45,756 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:34:45,756 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:34:45,761 105    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 14:34:45,762 106    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 14:34:45,762 106    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 14:34:45,763 107    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 14:34:45,763 107    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 14:35:30,491 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:35:30,585 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:35:30,585 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:35:30,585 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:35:30,585 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:09,268 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:36:09,363 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:09,363 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:09,363 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:09,364 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:09,449 181    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:36:09,666 398    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 911312317.
+2019-05-27 14:36:09,668 400    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==>  Preparing: select * from user; 
+2019-05-27 14:36:09,696 428    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==> Parameters: 
+2019-05-27 14:36:09,717 449    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - <==      Total: 11
+2019-05-27 14:36:09,723 455    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@365185bd]
+2019-05-27 14:36:09,724 456    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 911312317 to pool.
+2019-05-27 14:36:34,732 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:36:34,834 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:34,834 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:34,834 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:34,834 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:36:34,839 107    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 14:36:34,839 107    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 14:36:34,839 107    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 14:36:34,840 108    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 14:36:34,840 108    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 14:36:34,841 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao
+2019-05-27 14:36:34,841 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao
+2019-05-27 14:36:34,872 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:36:34,872 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao
+2019-05-27 14:36:34,872 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao/IUserDao.xml
+2019-05-27 14:36:34,872 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao/IUserDao.xml
+2019-05-27 14:36:34,873 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:37:04,341 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:37:04,454 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:37:04,454 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:37:04,454 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:37:04,454 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:37:04,460 119    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 14:37:04,460 119    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 14:37:04,460 119    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 14:37:04,461 120    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 14:37:04,461 120    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 14:37:04,461 120    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao
+2019-05-27 14:37:04,462 121    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao
+2019-05-27 14:37:04,494 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:37:04,494 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao
+2019-05-27 14:37:04,494 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao/IUserDao.xml
+2019-05-27 14:37:04,494 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin/dao/IUserDao.xml
+2019-05-27 14:37:04,495 154    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:38:19,405 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:38:19,509 104    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:38:19,509 104    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:38:19,509 104    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:38:19,509 104    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:38:19,513 108    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 14:38:19,514 109    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 14:38:19,514 109    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 14:38:19,515 110    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 14:38:19,515 110    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 14:38:19,515 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:38:19,515 110    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:38:19,546 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:38:19,546 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:38:19,546 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:38:19,547 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:38:19,547 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:38:19,547 142    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:38:57,593 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:38:57,691 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:38:57,691 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:38:57,691 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:38:57,691 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:38:57,696 103    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 14:38:57,696 103    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 14:38:57,697 104    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 14:38:57,697 104    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 14:38:57,697 104    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 14:38:57,698 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:38:57,698 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:38:57,736 143    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:38:57,737 144    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:38:57,737 144    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:38:57,737 144    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:38:57,737 144    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:38:57,738 145    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:38:57,739 146    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:38:57,740 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:38:57,741 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:38:57,742 149    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:38:57,831 238    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:38:58,065 472    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 786041152.
+2019-05-27 14:38:58,068 475    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==>  Preparing: select * from user; 
+2019-05-27 14:38:58,092 499    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==> Parameters: 
+2019-05-27 14:38:58,122 529    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - <==      Total: 11
+2019-05-27 14:38:58,126 533    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2eda0940]
+2019-05-27 14:38:58,126 533    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 786041152 to pool.
+2019-05-27 14:40:10,985 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:40:11,078 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:40:11,078 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:40:11,078 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:40:11,078 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:40:11,083 98     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 14:40:11,083 98     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 14:40:11,084 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 14:40:11,084 99     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 14:40:11,085 100    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 14:40:11,085 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/mapper
+2019-05-27 14:40:11,085 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/mapper
+2019-05-27 14:40:11,115 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:40:11,115 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/mapper
+2019-05-27 14:40:11,115 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/mapper/IUserDao.xml
+2019-05-27 14:40:11,115 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/mapper/IUserDao.xml
+2019-05-27 14:40:11,116 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:45:33,700 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:45:33,803 103    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:33,803 103    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:33,803 103    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:33,803 103    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,498 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:45:56,600 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,600 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,600 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,600 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,627 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,627 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,627 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,627 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,643 145    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,643 145    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,643 145    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,643 145    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,661 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,661 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,661 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,661 163    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,677 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,677 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,677 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,677 179    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,689 191    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,689 191    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,689 191    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,689 191    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,701 203    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,701 203    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,702 204    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,702 204    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,736 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,736 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,736 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:45:56,736 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:20,473 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:46:20,575 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:20,575 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:20,575 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:20,575 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:20,580 107    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 14:46:20,580 107    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 14:46:20,581 108    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 14:46:20,581 108    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 14:46:20,582 109    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 14:46:20,582 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:20,582 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:20,613 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:46:20,613 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:46:20,614 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:20,614 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:20,614 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:20,615 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:46:20,615 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:20,615 142    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:20,616 143    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:46:20,616 143    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:46:20,733 260    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:46:20,969 496    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1075738627.
+2019-05-27 14:46:20,971 498    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==>  Preparing: select * from user; 
+2019-05-27 14:46:21,006 533    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==> Parameters: 
+2019-05-27 14:46:21,026 553    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - <==      Total: 11
+2019-05-27 14:46:21,030 557    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+2019-05-27 14:46:21,030 557    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1075738627 to pool.
+2019-05-27 14:46:21,039 566    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,039 566    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,039 566    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,040 567    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,041 568    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,041 568    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,041 568    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:46:21,041 568    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:46:21,042 569    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,042 569    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,042 569    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,042 569    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:46:21,042 569    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,042 569    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,043 570    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:46:21,043 570    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:46:21,056 583    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:46:21,067 594    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1159114532.
+2019-05-27 14:46:21,067 594    [           main] DEBUG .lin0301.dao.IUserDao.findById  - ==>  Preparing: select * from user where id = ? 
+2019-05-27 14:46:21,067 594    [           main] DEBUG .lin0301.dao.IUserDao.findById  - ==> Parameters: 50(Integer)
+2019-05-27 14:46:21,069 596    [           main] DEBUG .lin0301.dao.IUserDao.findById  - <==      Total: 1
+2019-05-27 14:46:21,069 596    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4516af24]
+2019-05-27 14:46:21,070 597    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1159114532 to pool.
+2019-05-27 14:46:21,155 682    [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,155 682    [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,158 685    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,158 685    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,158 685    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,158 685    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,159 686    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,159 686    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,159 686    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:46:21,160 687    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:46:21,160 687    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,160 687    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,160 687    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,160 687    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:46:21,161 688    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,161 688    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,161 688    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:46:21,161 688    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:46:21,172 699    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:46:21,195 722    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 22756955.
+2019-05-27 14:46:21,195 722    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?); 
+2019-05-27 14:46:21,211 738    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - ==> Parameters: autocommit(String), 北京市顺义区(String), 男(String), 2019-05-27 14:46:21.172(Timestamp)
+2019-05-27 14:46:21,221 748    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@15b3e5b]
+2019-05-27 14:46:21,221 748    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 22756955 to pool.
+2019-05-27 14:46:21,236 763    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,236 763    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,236 763    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,236 763    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,237 764    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,237 764    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,238 765    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:46:21,238 765    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:46:21,238 765    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,238 765    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,238 765    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,239 766    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:46:21,239 766    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,239 766    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,239 766    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:46:21,240 767    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:46:21,261 788    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:46:21,289 816    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 736778932.
+2019-05-27 14:46:21,290 817    [           main] DEBUG in0301.dao.IUserDao.findByName  - ==>  Preparing: select * from user where username like ? 
+2019-05-27 14:46:21,292 819    [           main] DEBUG in0301.dao.IUserDao.findByName  - ==> Parameters: %王%(String)
+2019-05-27 14:46:21,300 827    [           main] DEBUG in0301.dao.IUserDao.findByName  - <==      Total: 4
+2019-05-27 14:46:21,300 827    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bea5ab4]
+2019-05-27 14:46:21,300 827    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 736778932 to pool.
+2019-05-27 14:46:21,314 841    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,314 841    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,314 841    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,314 841    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,315 842    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,315 842    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,316 843    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:46:21,316 843    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:46:21,316 843    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,316 843    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,316 843    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,317 844    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:46:21,317 844    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,317 844    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,317 844    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:46:21,317 844    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:46:21,386 913    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,386 913    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,386 913    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,386 913    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,387 914    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,387 914    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,388 915    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:46:21,388 915    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:46:21,388 915    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,388 915    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,388 915    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,388 915    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:46:21,389 916    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,389 916    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,397 924    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:46:21,397 924    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:46:21,407 934    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:46:21,414 941    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 85445963.
+2019-05-27 14:46:21,414 941    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - ==>  Preparing: select count(id) from user; 
+2019-05-27 14:46:21,414 941    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - ==> Parameters: 
+2019-05-27 14:46:21,415 942    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - <==      Total: 1
+2019-05-27 14:46:21,416 943    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@517cd4b]
+2019-05-27 14:46:21,416 943    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 85445963 to pool.
+2019-05-27 14:46:21,422 949    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,422 949    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,422 949    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,422 949    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,422 949    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,423 950    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,423 950    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:46:21,423 950    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:46:21,423 950    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,424 951    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,424 951    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,424 951    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:46:21,424 951    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,424 951    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,424 951    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:46:21,424 951    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:46:21,446 973    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:46:21,478 1005   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 733672688.
+2019-05-27 14:46:21,478 1005   [           main] DEBUG in0301.dao.IUserDao.deleteUser  - ==>  Preparing: delete from user where id = ? 
+2019-05-27 14:46:21,479 1006   [           main] DEBUG in0301.dao.IUserDao.deleteUser  - ==> Parameters: 48(Integer)
+2019-05-27 14:46:21,509 1036   [           main] DEBUG in0301.dao.IUserDao.deleteUser  - <==    Updates: 1
+2019-05-27 14:46:21,509 1036   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bbaf4f0]
+2019-05-27 14:46:21,509 1036   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 733672688 to pool.
+2019-05-27 14:46:21,519 1046   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,519 1046   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,519 1046   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,519 1046   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:46:21,520 1047   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,520 1047   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,521 1048   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:46:21,521 1048   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:46:21,521 1048   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:46:21,521 1048   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,521 1048   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:46:21,521 1048   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:46:21,522 1049   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,522 1049   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:46:21,522 1049   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:46:21,522 1049   [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:46:21,536 1063   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:46:21,545 1072   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 11902257.
+2019-05-27 14:46:21,545 1072   [           main] DEBUG in0301.dao.IUserDao.updateUser  - ==>  Preparing: update user set username=?,address=?,sex=?,birthday=? where id=? 
+2019-05-27 14:46:21,545 1072   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b59d31]
+2019-05-27 14:46:21,545 1072   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 11902257 to pool.
+2019-05-27 14:48:41,662 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 14:48:41,769 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:41,770 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:41,770 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:41,770 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:41,775 113    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 14:48:41,775 113    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 14:48:41,775 113    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 14:48:41,776 114    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 14:48:41,776 114    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 14:48:41,777 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:41,777 115    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:41,808 146    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:48:41,808 146    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:48:41,809 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:41,809 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:41,809 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:41,809 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:48:41,810 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:41,810 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:41,810 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:48:41,811 149    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:48:41,913 251    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:48:42,142 480    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1075738627.
+2019-05-27 14:48:42,143 481    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==>  Preparing: select * from user; 
+2019-05-27 14:48:42,170 508    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==> Parameters: 
+2019-05-27 14:48:42,187 525    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - <==      Total: 10
+2019-05-27 14:48:42,192 530    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+2019-05-27 14:48:42,192 530    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1075738627 to pool.
+2019-05-27 14:48:42,205 543    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,205 543    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,205 543    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,205 543    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,206 544    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,206 544    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,207 545    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:48:42,207 545    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:48:42,207 545    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,207 545    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,207 545    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,208 546    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:48:42,209 547    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,209 547    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,209 547    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:48:42,209 547    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:48:42,223 561    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:48:42,232 570    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1159114532.
+2019-05-27 14:48:42,232 570    [           main] DEBUG .lin0301.dao.IUserDao.findById  - ==>  Preparing: select * from user where id = ? 
+2019-05-27 14:48:42,232 570    [           main] DEBUG .lin0301.dao.IUserDao.findById  - ==> Parameters: 50(Integer)
+2019-05-27 14:48:42,233 571    [           main] DEBUG .lin0301.dao.IUserDao.findById  - <==      Total: 1
+2019-05-27 14:48:42,234 572    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4516af24]
+2019-05-27 14:48:42,234 572    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1159114532 to pool.
+2019-05-27 14:48:42,268 606    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,268 606    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,268 606    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,268 606    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,269 607    [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,269 607    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,269 607    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,270 608    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:48:42,270 608    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:48:42,270 608    [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,270 608    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,270 608    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,271 609    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,271 609    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:48:42,271 609    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,271 609    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,271 609    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:48:42,272 610    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:48:42,283 621    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:48:42,292 630    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 22756955.
+2019-05-27 14:48:42,292 630    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?); 
+2019-05-27 14:48:42,309 647    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - ==> Parameters: autocommit(String), 北京市顺义区(String), 男(String), 2019-05-27 14:48:42.283(Timestamp)
+2019-05-27 14:48:42,326 664    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@15b3e5b]
+2019-05-27 14:48:42,326 664    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 22756955 to pool.
+2019-05-27 14:48:42,344 682    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,344 682    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,345 683    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,345 683    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,346 684    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,346 684    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,346 684    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:48:42,346 684    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:48:42,347 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,347 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,347 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,347 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:48:42,347 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,347 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,347 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:48:42,348 686    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:48:42,357 695    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:48:42,368 706    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 736778932.
+2019-05-27 14:48:42,368 706    [           main] DEBUG in0301.dao.IUserDao.findByName  - ==>  Preparing: select * from user where username like ? 
+2019-05-27 14:48:42,368 706    [           main] DEBUG in0301.dao.IUserDao.findByName  - ==> Parameters: %王%(String)
+2019-05-27 14:48:42,372 710    [           main] DEBUG in0301.dao.IUserDao.findByName  - <==      Total: 4
+2019-05-27 14:48:42,373 711    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2bea5ab4]
+2019-05-27 14:48:42,373 711    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 736778932 to pool.
+2019-05-27 14:48:42,381 719    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,381 719    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,381 719    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,381 719    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,383 721    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,383 721    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,383 721    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:48:42,383 721    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:48:42,384 722    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,384 722    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,384 722    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,384 722    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:48:42,384 722    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,399 737    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,401 739    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:48:42,402 740    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:48:42,443 781    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:48:42,463 801    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 793315160.
+2019-05-27 14:48:42,463 801    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - ==>  Preparing: select * from user where username like ? 
+2019-05-27 14:48:42,463 801    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - ==> Parameters: %王%(String)
+2019-05-27 14:48:42,467 805    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - <==      Total: 4
+2019-05-27 14:48:42,468 806    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2f490758]
+2019-05-27 14:48:42,468 806    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 793315160 to pool.
+2019-05-27 14:48:42,483 821    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,483 821    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,483 821    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,483 821    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,484 822    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,484 822    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,485 823    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:48:42,485 823    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:48:42,485 823    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,485 823    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,485 823    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,485 823    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:48:42,485 823    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,486 824    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,486 824    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:48:42,486 824    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:48:42,504 842    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:48:42,519 857    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1738236591.
+2019-05-27 14:48:42,519 857    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - ==>  Preparing: select count(id) from user; 
+2019-05-27 14:48:42,519 857    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - ==> Parameters: 
+2019-05-27 14:48:42,522 860    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - <==      Total: 1
+2019-05-27 14:48:42,524 862    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@679b62af]
+2019-05-27 14:48:42,524 862    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1738236591 to pool.
+2019-05-27 14:48:42,538 876    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,538 876    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,538 876    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,538 876    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,539 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,539 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,539 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:48:42,539 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:48:42,540 878    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,540 878    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,540 878    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,540 878    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:48:42,540 878    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,541 879    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,541 879    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:48:42,541 879    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:48:42,557 895    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:48:42,569 907    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 849373393.
+2019-05-27 14:48:42,569 907    [           main] DEBUG in0301.dao.IUserDao.deleteUser  - ==>  Preparing: delete from user where id = ? 
+2019-05-27 14:48:42,569 907    [           main] DEBUG in0301.dao.IUserDao.deleteUser  - ==> Parameters: 48(Integer)
+2019-05-27 14:48:42,572 910    [           main] DEBUG in0301.dao.IUserDao.deleteUser  - <==    Updates: 0
+2019-05-27 14:48:42,572 910    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@32a068d1]
+2019-05-27 14:48:42,572 910    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 849373393 to pool.
+2019-05-27 14:48:42,590 928    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,590 928    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,590 928    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,590 928    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 14:48:42,591 929    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,591 929    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,591 929    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 14:48:42,592 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 14:48:42,592 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 14:48:42,592 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,592 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 14:48:42,592 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 14:48:42,592 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,592 930    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 14:48:42,593 931    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 14:48:42,593 931    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 14:48:42,609 947    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 14:48:42,618 956    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 500179317.
+2019-05-27 14:48:42,618 956    [           main] DEBUG in0301.dao.IUserDao.updateUser  - ==>  Preparing: update user set username=?,address=?,sex=?,birthday=? where id=? 
+2019-05-27 14:48:42,619 957    [           main] DEBUG in0301.dao.IUserDao.updateUser  - ==> Parameters: mybastis update user(String), 北京市顺义区(String), 女(String), 2019-05-27 14:48:42.607(Timestamp), 50(Integer)
+2019-05-27 14:48:42,650 988    [           main] DEBUG in0301.dao.IUserDao.updateUser  - <==    Updates: 1
+2019-05-27 14:48:42,651 989    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dd02175]
+2019-05-27 14:48:42,651 989    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 500179317 to pool.
+2019-05-27 15:07:44,670 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 15:07:44,767 97     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:44,768 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:44,768 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:44,768 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:44,772 102    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 15:07:44,773 103    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 15:07:44,773 103    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 15:07:44,773 103    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 15:07:44,774 104    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 15:07:44,774 104    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:44,774 104    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:44,815 145    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:07:44,815 145    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:07:44,815 145    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:44,815 145    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:44,815 145    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:44,816 146    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:07:44,817 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:44,817 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:44,817 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:07:44,817 147    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:07:44,926 256    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:07:45,174 504    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1075738627.
+2019-05-27 15:07:45,182 512    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==>  Preparing: select * from user; 
+2019-05-27 15:07:45,221 551    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==> Parameters: 
+2019-05-27 15:07:45,257 587    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - <==      Total: 6
+2019-05-27 15:07:45,260 590    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+2019-05-27 15:07:45,261 591    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1075738627 to pool.
+2019-05-27 15:07:45,271 601    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,272 602    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,272 602    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,272 602    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,285 615    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,285 615    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,285 615    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:07:45,286 616    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:07:45,286 616    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,286 616    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,286 616    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,286 616    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:07:45,287 617    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,287 617    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,287 617    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:07:45,288 618    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:07:45,301 631    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:07:45,342 672    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1159114532.
+2019-05-27 15:07:45,342 672    [           main] DEBUG .lin0301.dao.IUserDao.findById  - ==>  Preparing: select * from user where id = ? 
+2019-05-27 15:07:45,342 672    [           main] DEBUG .lin0301.dao.IUserDao.findById  - ==> Parameters: 50(Integer)
+2019-05-27 15:07:45,344 674    [           main] DEBUG .lin0301.dao.IUserDao.findById  - <==      Total: 0
+2019-05-27 15:07:45,344 674    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4516af24]
+2019-05-27 15:07:45,344 674    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1159114532 to pool.
+2019-05-27 15:07:45,379 709    [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,379 709    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,379 709    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,379 709    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,379 709    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,380 710    [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,381 711    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,381 711    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,381 711    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:07:45,382 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:07:45,382 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,382 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,382 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,382 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:07:45,382 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,382 712    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,383 713    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:07:45,383 713    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:07:45,396 726    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:07:45,403 733    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 22756955.
+2019-05-27 15:07:45,403 733    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?); 
+2019-05-27 15:07:45,407 737    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - ==> Parameters: autocommit(String), 北京市顺义区(String), 男(String), 2019-05-27 15:07:45.396(Timestamp)
+2019-05-27 15:07:45,437 767    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - <==    Updates: 1
+2019-05-27 15:07:45,438 768    [           main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id(); 
+2019-05-27 15:07:45,438 768    [           main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters: 
+2019-05-27 15:07:45,439 769    [           main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2019-05-27 15:07:45,440 770    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@15b3e5b]
+2019-05-27 15:07:45,440 770    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 22756955 to pool.
+2019-05-27 15:07:45,446 776    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,446 776    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,446 776    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,447 777    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,447 777    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,447 777    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,448 778    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:07:45,448 778    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:07:45,448 778    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,448 778    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,448 778    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,449 779    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:07:45,449 779    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,449 779    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,449 779    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:07:45,449 779    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:07:45,467 797    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:07:45,472 802    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1411892748.
+2019-05-27 15:07:45,472 802    [           main] DEBUG in0301.dao.IUserDao.findByName  - ==>  Preparing: select * from user where username like ? 
+2019-05-27 15:07:45,473 803    [           main] DEBUG in0301.dao.IUserDao.findByName  - ==> Parameters: %王%(String)
+2019-05-27 15:07:45,474 804    [           main] DEBUG in0301.dao.IUserDao.findByName  - <==      Total: 4
+2019-05-27 15:07:45,475 805    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5427c60c]
+2019-05-27 15:07:45,475 805    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1411892748 to pool.
+2019-05-27 15:07:45,481 811    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,481 811    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,482 812    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,482 812    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,483 813    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,483 813    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,483 813    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:07:45,483 813    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:07:45,484 814    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,484 814    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,484 814    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,484 814    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:07:45,484 814    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,485 815    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,485 815    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:07:45,485 815    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:07:45,515 845    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:07:45,529 859    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1601292138.
+2019-05-27 15:07:45,529 859    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - ==>  Preparing: select * from user where username like ? 
+2019-05-27 15:07:45,530 860    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - ==> Parameters: %王%(String)
+2019-05-27 15:07:45,532 862    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - <==      Total: 4
+2019-05-27 15:07:45,533 863    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f71c76a]
+2019-05-27 15:07:45,533 863    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1601292138 to pool.
+2019-05-27 15:07:45,545 875    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,545 875    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,545 875    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,545 875    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,546 876    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,546 876    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,547 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:07:45,547 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:07:45,547 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,547 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,547 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,547 877    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:07:45,548 878    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,548 878    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,548 878    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:07:45,548 878    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:07:45,614 944    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:07:45,638 968    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 611563982.
+2019-05-27 15:07:45,638 968    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - ==>  Preparing: select count(id) from user; 
+2019-05-27 15:07:45,639 969    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - ==> Parameters: 
+2019-05-27 15:07:45,640 970    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - <==      Total: 1
+2019-05-27 15:07:45,640 970    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2473b9ce]
+2019-05-27 15:07:45,640 970    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 611563982 to pool.
+2019-05-27 15:07:45,655 985    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,656 986    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,656 986    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,656 986    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,656 986    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,656 986    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,657 987    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:07:45,657 987    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:07:45,657 987    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,657 987    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,658 988    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,658 988    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:07:45,658 988    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,658 988    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,658 988    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:07:45,658 988    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:07:45,670 1000   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:07:45,685 1015   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 770911223.
+2019-05-27 15:07:45,686 1016   [           main] DEBUG in0301.dao.IUserDao.deleteUser  - ==>  Preparing: delete from user where id = ? 
+2019-05-27 15:07:45,686 1016   [           main] DEBUG in0301.dao.IUserDao.deleteUser  - ==> Parameters: 48(Integer)
+2019-05-27 15:07:45,706 1036   [           main] DEBUG in0301.dao.IUserDao.deleteUser  - <==    Updates: 1
+2019-05-27 15:07:45,706 1036   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2df32bf7]
+2019-05-27 15:07:45,706 1036   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 770911223 to pool.
+2019-05-27 15:07:45,712 1042   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,712 1042   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,712 1042   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,712 1042   [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:07:45,713 1043   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,713 1043   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,713 1043   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:07:45,713 1043   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:07:45,714 1044   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:07:45,714 1044   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,714 1044   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:07:45,714 1044   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:07:45,714 1044   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,714 1044   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:07:45,714 1044   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:07:45,715 1045   [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:07:45,728 1058   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:07:45,736 1066   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 867398280.
+2019-05-27 15:07:45,736 1066   [           main] DEBUG in0301.dao.IUserDao.updateUser  - ==>  Preparing: update user set username=?,address=?,sex=?,birthday=? where id=? 
+2019-05-27 15:07:45,737 1067   [           main] DEBUG in0301.dao.IUserDao.updateUser  - ==> Parameters: mybastis update user(String), 北京市顺义区(String), 女(String), 2019-05-27 15:07:45.728(Timestamp), 50(Integer)
+2019-05-27 15:07:45,738 1068   [           main] DEBUG in0301.dao.IUserDao.updateUser  - <==    Updates: 0
+2019-05-27 15:07:45,739 1069   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@33b37288]
+2019-05-27 15:07:45,739 1069   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 867398280 to pool.
+2019-05-27 15:08:16,742 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-05-27 15:08:16,844 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:16,844 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:16,845 103    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:16,845 103    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:16,850 108    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-05-27 15:08:16,850 108    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-05-27 15:08:16,851 109    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-05-27 15:08:16,852 110    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-05-27 15:08:16,852 110    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-05-27 15:08:16,853 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:16,853 111    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:16,892 150    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:08:16,893 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:08:16,893 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:16,893 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:16,893 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:16,894 152    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:08:16,894 152    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:16,894 152    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:16,895 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:08:16,895 153    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:08:16,988 246    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:08:17,214 472    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1075738627.
+2019-05-27 15:08:17,216 474    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==>  Preparing: select * from user; 
+2019-05-27 15:08:17,240 498    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - ==> Parameters: 
+2019-05-27 15:08:17,261 519    [           main] DEBUG m.lin0301.dao.IUserDao.findAll  - <==      Total: 6
+2019-05-27 15:08:17,265 523    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+2019-05-27 15:08:17,265 523    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1075738627 to pool.
+2019-05-27 15:08:17,274 532    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,274 532    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,274 532    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,274 532    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,275 533    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,276 534    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,276 534    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:08:17,276 534    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:08:17,276 534    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,277 535    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,277 535    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,277 535    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:08:17,277 535    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,277 535    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,278 536    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:08:17,278 536    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:08:17,290 548    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:08:17,297 555    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1159114532.
+2019-05-27 15:08:17,297 555    [           main] DEBUG .lin0301.dao.IUserDao.findById  - ==>  Preparing: select * from user where id = ? 
+2019-05-27 15:08:17,297 555    [           main] DEBUG .lin0301.dao.IUserDao.findById  - ==> Parameters: 50(Integer)
+2019-05-27 15:08:17,298 556    [           main] DEBUG .lin0301.dao.IUserDao.findById  - <==      Total: 0
+2019-05-27 15:08:17,298 556    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4516af24]
+2019-05-27 15:08:17,298 556    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1159114532 to pool.
+2019-05-27 15:08:17,310 568    [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,311 569    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,311 569    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,311 569    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,311 569    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,311 569    [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,312 570    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,312 570    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,313 571    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:08:17,313 571    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:08:17,313 571    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,313 571    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,313 571    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,314 572    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:08:17,314 572    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,314 572    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,314 572    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:08:17,314 572    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:08:17,324 582    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:08:17,330 588    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 22756955.
+2019-05-27 15:08:17,330 588    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - ==>  Preparing: insert into user(username,address,sex,birthday)values(?,?,?,?); 
+2019-05-27 15:08:17,333 591    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - ==> Parameters: autocommit(String), 北京市顺义区(String), 男(String), 2019-05-27 15:08:17.324(Timestamp)
+2019-05-27 15:08:17,352 610    [           main] DEBUG .lin0301.dao.IUserDao.saveUser  - <==    Updates: 1
+2019-05-27 15:08:17,352 610    [           main] DEBUG ao.IUserDao.saveUser!selectKey  - ==>  Preparing: select last_insert_id(); 
+2019-05-27 15:08:17,352 610    [           main] DEBUG ao.IUserDao.saveUser!selectKey  - ==> Parameters: 
+2019-05-27 15:08:17,354 612    [           main] DEBUG ao.IUserDao.saveUser!selectKey  - <==      Total: 1
+2019-05-27 15:08:17,354 612    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@15b3e5b]
+2019-05-27 15:08:17,354 612    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 22756955 to pool.
+2019-05-27 15:08:17,360 618    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,360 618    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,360 618    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,361 619    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,361 619    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,361 619    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,362 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:08:17,362 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:08:17,362 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,362 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,362 620    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,363 621    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:08:17,363 621    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,363 621    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,363 621    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:08:17,363 621    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:08:17,372 630    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:08:17,384 642    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1411892748.
+2019-05-27 15:08:17,384 642    [           main] DEBUG in0301.dao.IUserDao.findByName  - ==>  Preparing: select * from user where username like ? 
+2019-05-27 15:08:17,384 642    [           main] DEBUG in0301.dao.IUserDao.findByName  - ==> Parameters: %王%(String)
+2019-05-27 15:08:17,387 645    [           main] DEBUG in0301.dao.IUserDao.findByName  - <==      Total: 4
+2019-05-27 15:08:17,387 645    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5427c60c]
+2019-05-27 15:08:17,387 645    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1411892748 to pool.
+2019-05-27 15:08:17,397 655    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,397 655    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,397 655    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,397 655    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,398 656    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,398 656    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,399 657    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:08:17,400 658    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:08:17,400 658    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,400 658    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,401 659    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,401 659    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:08:17,401 659    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,401 659    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,401 659    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:08:17,402 660    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:08:17,432 690    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:08:17,469 727    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1601292138.
+2019-05-27 15:08:17,472 730    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - ==>  Preparing: select * from user where username like ? 
+2019-05-27 15:08:17,472 730    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - ==> Parameters: %王%(String)
+2019-05-27 15:08:17,475 733    [           main] DEBUG 0301.dao.IUserDao.findUserByVo  - <==      Total: 4
+2019-05-27 15:08:17,476 734    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5f71c76a]
+2019-05-27 15:08:17,476 734    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1601292138 to pool.
+2019-05-27 15:08:17,483 741    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,483 741    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,483 741    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,483 741    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,483 741    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,484 742    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,484 742    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:08:17,484 742    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:08:17,484 742    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,485 743    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,485 743    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,487 745    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:08:17,488 746    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,488 746    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,488 746    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:08:17,489 747    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:08:17,502 760    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:08:17,513 771    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 611563982.
+2019-05-27 15:08:17,513 771    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - ==>  Preparing: select count(id) from user; 
+2019-05-27 15:08:17,514 772    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - ==> Parameters: 
+2019-05-27 15:08:17,516 774    [           main] DEBUG lin0301.dao.IUserDao.findTotal  - <==      Total: 1
+2019-05-27 15:08:17,516 774    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2473b9ce]
+2019-05-27 15:08:17,516 774    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 611563982 to pool.
+2019-05-27 15:08:17,523 781    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,523 781    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,523 781    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,523 781    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,524 782    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,524 782    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,525 783    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:08:17,525 783    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:08:17,525 783    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,525 783    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,525 783    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,525 783    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:08:17,526 784    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,526 784    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,526 784    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:08:17,526 784    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:08:17,539 797    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:08:17,551 809    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 770911223.
+2019-05-27 15:08:17,551 809    [           main] DEBUG in0301.dao.IUserDao.deleteUser  - ==>  Preparing: delete from user where id = ? 
+2019-05-27 15:08:17,552 810    [           main] DEBUG in0301.dao.IUserDao.deleteUser  - ==> Parameters: 48(Integer)
+2019-05-27 15:08:17,553 811    [           main] DEBUG in0301.dao.IUserDao.deleteUser  - <==    Updates: 0
+2019-05-27 15:08:17,553 811    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2df32bf7]
+2019-05-27 15:08:17,553 811    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 770911223 to pool.
+2019-05-27 15:08:17,580 838    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,580 838    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,580 838    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,580 838    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-05-27 15:08:17,581 839    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,581 839    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,582 840    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-05-27 15:08:17,582 840    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2019-05-27 15:08:17,582 840    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao
+2019-05-27 15:08:17,582 840    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,583 841    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.class
+2019-05-27 15:08:17,583 841    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/lin0301/domain/User;>; saveUser (Lcom/lin0301/domain/User;)V 
+2019-05-27 15:08:17,583 841    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,583 841    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/bilin-learn/common-mybatis/mybatis03_01datasourceAndTx/target/classes/com/lin0301/dao/IUserDao.xml
+2019-05-27 15:08:17,583 841    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2019-05-27 15:08:17,584 842    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.lin0301.dao.IUserDao matches criteria [is assignable to Object]
+2019-05-27 15:08:17,593 851    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-05-27 15:08:17,599 857    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 867398280.
+2019-05-27 15:08:17,600 858    [           main] DEBUG in0301.dao.IUserDao.updateUser  - ==>  Preparing: update user set username=?,address=?,sex=?,birthday=? where id=? 
+2019-05-27 15:08:17,600 858    [           main] DEBUG in0301.dao.IUserDao.updateUser  - ==> Parameters: mybastis update user(String), 北京市顺义区(String), 女(String), 2019-05-27 15:08:17.593(Timestamp), 50(Integer)
+2019-05-27 15:08:17,625 883    [           main] DEBUG in0301.dao.IUserDao.updateUser  - <==    Updates: 1
+2019-05-27 15:08:17,626 884    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@33b37288]
+2019-05-27 15:08:17,626 884    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 867398280 to pool.

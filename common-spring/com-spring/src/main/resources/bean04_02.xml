@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:property-placeholder location="db.properties" />
+
+    <bean id="accountService" class="spring04_02account_aoptx_xml.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao0402"/>
+    </bean>
+
+    <bean id="accountDao0402" class="spring04_02account_aoptx_xml.dao.impl.AccountDaoImpl">
+        <property name="runner" ref="runner"/>
+        <property name="connectionUtils"  ref="cu"/>
+    </bean>
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        <constructor-arg name="ds" ref="ds"/>
+    </bean>
+    <bean id="cu" class="spring04_02account_aoptx_xml.utils.ConnectionUtils">
+        <property name="dataSource" ref="ds"/>
+    </bean>
+    <bean id="ds" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driverClass}"/>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}"/>
+        <property name="user" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <bean id="txManager" class="spring04_02account_aoptx_xml.utils.TransactionManager">
+        <property name="connectionUtils" ref="cu"/>
+    </bean>
+    <!--expose-proxy代表是否扩大传播范围，proxy-target-class代表是否使用cglib，默认是false使用java-interface-->
+    <!--配置aop-->
+    <aop:config>
+        <!--配置通用切入点表达式-->
+        <aop:pointcut id="pt1" expression="execution(* spring04_02account_aoptx_xml.service.impl..*(..))"></aop:pointcut>
+        <aop:aspect id="txAdvice" ref="txManager">
+            <!--配置前置通知：开启事务-->
+            <aop:before method="beginTransaction" pointcut-ref="pt1"></aop:before>
+            <!--配置后置通知：提交事务-->
+            <aop:after-returning method="commit" pointcut-ref="pt1"></aop:after-returning>
+            <!--配置异常通知：回滚事务-->
+            <aop:after-throwing method="rollback" pointcut-ref="pt1"></aop:after-throwing>
+            <!--配置最终通知：释放连接-->
+            <aop:after method="release" pointcut-ref="pt1"></aop:after>
+        </aop:aspect>
+    </aop:config>
+</beans>

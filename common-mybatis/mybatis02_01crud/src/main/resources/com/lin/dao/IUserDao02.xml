@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lin.dao.IUserDao02">
+
+    <!-- 配置 查询结果的列名和实体类的属性名的对应关系 ,因为sqlmapconfig.xml中配置了typeAliases，所以不区分大小写 -->
+    <resultMap id="userMap" type="user02">
+        <id property="userId" column="id"/>
+        <result property="userName" column="username"/>
+        <result property="userAddress" column="address"/>
+        <result property="userSex" column="sex"/>
+        <result property="userBirthday" column="birthday"/>
+    </resultMap>
+    <!--配置查询所有-->
+    <select id="findAll" resultMap="userMap">
+        select * from user;
+    </select>
+    <!-- 保存用户 -->
+    <insert id="saveUser" parameterType="USer02">
+        <!-- 配置插入操作后，获取插入数据的id （针对自增主键，mybatis自动将返回值注入）-->
+        <selectKey keyProperty="userId" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username,address,sex,birthday) values (#{userName},#{userAddress},#{userSex},#{userBirthday});
+    </insert>
+
+    <update id="updateUser" parameterType="User02">
+        update user set username=#{userName},address=#{userAddress},sex=#{userSex},birthday=#{userBirthday} where id=#{userId}
+    </update>
+
+
+
+    <delete id="deleteUser" parameterType="int">
+        <!--单个参数，使用#,里面变量名字任意-->
+        delete from user where id=#{uid}
+    </delete>
+
+    <select id="findById" parameterType="int" resultMap="userMap">
+        <!--#和$区别-->
+        <!-- #是需要进行编译的，是字符串进行编译之后在放入到sql中，如果不是单纯的字符串替换，而$是直接进行字符串的替换工作（根据给定的parameterType的属性，如果是简单类型值如基本类型和string，固定是value） ，还有一个注入问题-->
+        <!--如下使用会报错，报错Integer中没有uid的getter方法，换成value即可 ,或者使用# 变量名就可以任意了-->
+        <!--select * from user where id =${uid}-->
+        select * from user where id =${value}
+    </select>
+    <!-- 根据名称模糊查询 -->
+    <select id="findByName" parameterType="string" resultMap="userMap">
+<!--        select * from user where username like #{aaa};-->
+<!--select * from user where username like concat('%',#{name},'%');-->
+
+        <!-- 使用下面$方式取单个值，又是嵌套在其他符号里面的，只能用value变量来替换，否则会报错没有getter方法-->
+        <!-- select * from user where username like '%${value}%'-->
+    </select>
+
+    <!-- 获取用户的总记录条数 -->
+    <select id="findTotal" resultType="int">
+        select count(id) from user;
+    </select>
+
+    <select id="findUserByVo" parameterType="QueryVo" resultMap="userMap">
+        select * from user where username like '%${user.userName}%'
+    </select>
+</mapper>

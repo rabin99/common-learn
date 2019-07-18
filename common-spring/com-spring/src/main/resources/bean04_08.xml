@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="db.properties"/>
+    <!--使用事务模版来自定义实现事务管理:编程式失误-->
+
+    <!-- 配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource0408"/>
+    </bean>
+    <!--配置事务模板对象-->
+    <bean id="transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">
+        <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+
+    <bean id="accountService0408" class="spring04_08account_tx.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao0408"/>
+        <property name="transactionTemplate" ref="transactionTemplate"/>
+    </bean>
+
+    <bean id="accountDao0408" class="spring04_08account_tx.dao.impl.AccountDaoImpl">
+        <property name="dataSource" ref="dataSource0408"/>
+    </bean>
+
+    <!--spring自带的数据源-->
+    <bean id="dataSource0408" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driverClass}"/>
+        <property name="url" value="${jdbc.jdbcUrl}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+
+</beans>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lin0401.dao.IUserDao">
+    <resultMap id="userAccountMap" type="user0401">
+        <id property="id" column="id" />
+        <result property="username" column="username" />
+        <result property="address" column="address" />
+        <result property="sex" column="sex" />
+        <result property="birthday" column="birthday" />
+
+        <!-- 立即查询，配置user对象中accounts集合的映射 ,ofType指定关联查询的结果集中的对象类型即 List中的对象类型。此处可以使用别名，也可以使用全限定名。-->
+       <!-- <collection property="accounts" ofType="account" >
+            <id property="id" column="aid"/>
+            <id property="uid" column="uid" />
+            <id property="money" column="money" />
+        </collection>-->
+        <!-- lazy查询 -->
+        <collection property="accounts" ofType="account0401" select="com.lin0401.dao.IAccountDao.findAccountByUid" column="id"></collection>
+
+    </resultMap>
+
+    <!-- 这里查询出的结果是user，user对应多个account，account中又包含了user，那么就会陷入无限嵌套，实际结果是当查询出account时，account的user属性值为null
+    同理，查询account的时候，内部user里面对account列表的引用也置为null，这些都是由mybatis自动解决嵌套问题
+    <select id="findAll" resultMap="userAccountMap">
+        select * from user u left outer join account a on u.id = a.uid
+    </select>
+
+    <select id="findById" parameterType="INT" resultType="user0401">
+        select * from user where id = #{uid}
+    </select>-->
+    <!-- 查询所有 -->
+    <select id="findAll" resultMap="userAccountMap">
+        select * from user
+    </select>
+
+    <!-- 根据id查询用户 -->
+    <select id="findById" parameterType="INT" resultType="user0401">
+        select * from user where id = #{uid}
+    </select>
+</mapper>

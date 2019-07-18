@@ -1,0 +1,13 @@
+/*静态化页面css并不能一起被静态
+需要放置路径，能被静态化后的页面访问*/
+table {
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 80%;
+    margin: auto
+}
+
+table, th, td {
+    border: 1px solid darkslategray;
+    padding: 10px
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lin0402.dao.IUserDao">
+    <!--开启user支持二级缓存,必须要配置,配置了这个全局的二级缓存，对应方法中如果不需要二级缓存，则需要userCache=false-->
+    <!--配置当前mapper 开启二级缓存-->
+    <!--这里开启了全局的，后面的查询方法中如果不需要二级缓存，需要手动设置userCache="false"-->
+    <cache />
+
+    <!-- 查询所有 -->
+    <select id="findAll" resultType="com.lin0402.domain.User" useCache="true">
+        select * from user
+    </select>
+
+    <!-- 根据id查询用户 ，指明对应的方法开启二级缓存-->
+    <select id="findById" parameterType="INT" resultType="com.lin0402.domain.User">
+        select * from user where id = #{uid}
+    </select>
+
+    <!-- 更新用户信息-->
+    <update id="updateUser" parameterType="com.lin0402.domain.User">
+        update user set username=#{username},address=#{address} where id=#{id}
+    </update>
+</mapper>

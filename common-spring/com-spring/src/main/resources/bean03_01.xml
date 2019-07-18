@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--到底是如何让代理生效：使用代理对象，创建一个代码对象，然后将service通过代码对象的方法返回，以后service方法就用代理类方法的返回对象作为service-->
+    <bean id="proxyAccountService" factory-bean="beanFactory" factory-method="getAccountService"/>
+     <!--代理对象需要传入被代理的对象，然后再进行包装 ，之后使用service，使用的是beanfactory方法返回的service对象，这样完成对象之前的相互调用关系-->
+    <bean id="beanFactory" class="spring03_01account.factory.BeanFactory">
+        <property name="accountService" ref="accountService"/>
+        <property name="txManager" ref="txManager"/>
+    </bean>
+    <!--这个也是必须要创建的，因为代理的时候需要将被代理的对象作为变量传入-->
+    <bean id="accountService" class="spring03_01account.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+
+    <!--原先只要使用下面这部分即可-->
+  <!--  <bean id="accountService" class="lin04_01account.service.impl.AccountServiceImpl_OLD">
+        <property name="accountDao" ref="accountDao"/>
+        <property name="txManager" ref="txManager"/>
+    </bean>-->
+    <bean id="accountDao" class="spring03_01account.dao.impl.AccountDaoImpl">
+        <property name="runner" ref="runner"/>
+        <property name="connectionUtils" ref="connectionUtils"/>
+    </bean>
+
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype"/>
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://flu03:3306/test"/>
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+    <bean id="connectionUtils" class="spring03_01account.utils.ConnectionUtils">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <bean id="txManager" class="spring03_01account.utils.TransactionManager">
+        <property name="connectionUtils" ref="connectionUtils"/>
+    </bean>
+</beans>

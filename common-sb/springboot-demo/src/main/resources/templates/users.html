@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!--注意这里的css最终目录也是这样，所以css和js需要放一份到改文件能访问的目录-->
+    <link th:href="@{/bootstrap/css/layout.css}"  rel="stylesheet"/>
+</head>
+<body>
+<div style="text-align: center">
+    <span style="color: darkslategray; font-size: 30px">欢迎光临！</span>
+    <hr/>
+    <table class="list">
+        <tr>
+            <th>id</th>
+            <th>姓名</th>
+            <th>密码</th>
+        </tr>
+        <tr th:each="user : ${users}">
+            <td th:text="${user.id}">随便填不影响</td>
+            <td th:text="${user.username}">zhangsan</td>
+            <td th:text="${user.password}">20</td>
+            <!--<td th:text="${user.sex} == 1 ? '男': '女'">男</td>-->
+            <!--<td th:text="${#dates.format(user.birthday, 'yyyy-MM-dd')}">1980-02-30</td>-->
+        </tr>
+    </table>
+</div>
+</body>
+</html>
